@@ -13,15 +13,14 @@ void main()
     printf("Enter temperature : ");
     scanf("%d", &temp);
     printf("Value Of Temp. %d\n", temp);
-
     if (n == 1)
     {
         temperature = ((temp * 9 / 5) + 32);
-        printf(" Temperature in Fahrenheit : %f degree F", temperature);
+        printf("Temperature in Fahrenheit : %f degree F", temperature);
     }
     else
     {
         temperature = ((temp - 32) * 5 / 9);
-        printf(" Temperature in Celcius : %f degree C", temperature);
+        printf("Temperature in Celcius : %f degree C", temperature);
     }
 }
