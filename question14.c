@@ -9,14 +9,12 @@ void main()
     int c;
     printf("Enter Number : ");
     scanf("%d", &number);
-    printf(" %d ", a);
-    printf(" %d ", b);
 
-    for (int i = 0; i <= number - 2; i++)
+    for (int i = 1; i <= number; i++)
     {
+        printf(" %d ", a);
         c = a + b;
         a = b;
         b = c;
-        printf(" %d ", c);
     }
 }

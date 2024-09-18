@@ -14,5 +14,4 @@ void main()
         printf("%d", reverse);
         number = number / 10;
     }
-     
 }
